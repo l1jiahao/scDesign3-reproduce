@@ -5,6 +5,7 @@
 ```
 conda create -n r-scdesign r-base r-essentials
 # install scDesign3
+R
 if (!require("devtools", quietly = TRUE))
     install.packages("devtools")
 devtools::install_github("SONGDONGYUAN1994/scDesign3")
@@ -17,7 +18,7 @@ change the order to install packages, it works just well.
 
 1. install devtools first
 ```
-install.packages("devtools)
+install.packages("devtools")
 ```
 
 2. install scDesign3
