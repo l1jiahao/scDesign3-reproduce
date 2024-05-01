@@ -78,7 +78,7 @@ example_simu <- scdesign3(
     spatial = NULL,
     other_covariates = NULL,
     family_use = "nb",
-    n_cores = 5,
+    n_cores = 1,
     usebam = FALSE,
     mu_formula = "celltype",
     sigma_formula = "celltype",
